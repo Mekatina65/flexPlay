@@ -1,21 +1,4 @@
 
-*{
-    font-family: serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 30px;
-
-}
-
-[class ^= "box-"]{
-    display: grid;
-    place-items: center;
-    padding: 10px;
-    border: solid 5px orangered;
-    border-radius: 20px;
-    box-shadow: 00 5px greenyellow;
-}
 
 body{
     /* background: rgb(179, 179, 179); */

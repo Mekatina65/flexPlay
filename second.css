@@ -1,0 +1,46 @@
+
+*{
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+
+}
+
+[class ^= "box-"]{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    border: solid 5px orangered;
+    border-radius: 20px;
+    box-shadow: 00 5px greenyellow;
+}
+
+body{
+
+    background: linear-gradient(lightblue, darkblue);
+    height: 100vh;
+}
+
+.beginner-plus {
+
+    height: 90vh;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.beginner-plus .box-1{
+
+    grid-column: span 2;
+}
+.beginner-plus .box-2{
+
+    grid-column: span 6;
+}
+.beginner-plus .box-3{
+
+    grid-column: span 4;
+}
